@@ -1,0 +1,104 @@
+.Characters {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.Card {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 0 10px green;
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.avatar {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+}
+
+.CardText {
+    width: 100%;
+    height: 220px;
+}
+
+.Name {
+    font-size: 32px;
+    color: green;
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: center;
+
+}
+
+.CardTextCont {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.CardTextP {
+    font-size: 23px;
+    color: green;
+}
+
+.CardButton {
+    width: 100%;
+    height: 40px;
+
+
+}
+
+.Pagination {
+    width: 350px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.pageCount {
+    font-size: 30px;
+    color: green;
+    font-weight: 600;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.PagBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    box-shadow: 0 0 10px green;
+    border: none;
+}

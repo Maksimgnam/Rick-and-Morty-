@@ -1,0 +1,52 @@
+.Main {
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+}
+
+.MainTextContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 50px;
+
+    justify-content: space-around;
+
+
+}
+
+.MainDownCont {
+    width: 85%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.MainP {
+    font-size: 25px;
+    color: green;
+    position: relative;
+    top: -40px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.MainImageContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.MainImage {
+    width: 70%;
+    border-radius: 20px;
+    height: 80%;
+}

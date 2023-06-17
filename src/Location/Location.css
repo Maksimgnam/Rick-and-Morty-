@@ -1,0 +1,19 @@
+.Location {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.LocationCard {
+    width: 50%;
+    height: auto;
+    box-shadow: 0 0 10px green;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}

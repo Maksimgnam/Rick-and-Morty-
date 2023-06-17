@@ -1,0 +1,52 @@
+.Episode {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EpisodeName {
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Delicious Handrawn', cursive;
+    color: green;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.EpisodeCard {
+    width: 60%;
+    height: auto;
+
+    box-shadow: 0 0 10px green;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.EpisodeText {
+    width: 100%;
+    height: 190px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.EpisodeCardTextP {
+    font-size: 28px;
+    color: green;
+
+}
+
+.EpisodeSpan {
+    font-size: 43px;
+}
+
+.EpisodeInput {
+    margin-top: 30px;
+}

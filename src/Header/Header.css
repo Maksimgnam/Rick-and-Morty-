@@ -1,0 +1,33 @@
+.Header {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+
+
+}
+
+.Logo {
+    font-size: 37px;
+    color: green;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+
+
+    font-family: 'Delicious Handrawn', cursive;
+
+}
+
+
+
+.navbar {
+    width: 45%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}

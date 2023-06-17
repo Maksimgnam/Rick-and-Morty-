@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  font-size: 26px;
+  color: green;
+
+  font-family: 'Delicious Handrawn', cursive;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.TextH3 {
+  color: green;
+  font-size: 45px;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+.Input {
+  width: 30%;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  box-shadow: 0 0 10px green;
+  color: green;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 20px;
+  padding-left: 5px;
+
+}
+
+.Input::placeholder {
+  font-size: 20px;
+  color: green;
+  font-family: 'Delicious Handrawn', cursive;
+
+}
+
+span {
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 32px;
+
+}
