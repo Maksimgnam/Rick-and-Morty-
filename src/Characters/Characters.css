@@ -102,3 +102,48 @@
     box-shadow: 0 0 10px green;
     border: none;
 }
+
+.Popup {
+    width: 30%;
+    height: auto;
+    background-color: black;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px green;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.PopupText {
+
+    width: 100%;
+    height: 270px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.PopupP {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.CloseBtn {
+    width: 100px;
+    height: 40px;
+    float: right;
+    position: relative;
+    left: -30px;
+    top: -15px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: black;
+    box-shadow: 0 0 10px green;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 23px;
+
+}

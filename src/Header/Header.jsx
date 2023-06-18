@@ -9,10 +9,10 @@ const Header = () => {
         <div className="Header">
             <div className="Logo">Rick and Morty</div>
             <div className="navbar">
-                <a href="">Home</a>
-                <a href="">Characters</a>
-                <a href="">Eoisodes</a>
-                <a href="">Locations</a>
+                <a href="#Home">Home</a>
+                <a href="#Character">Characters</a>
+                <a href="#Episode">Episodes</a>
+                <a href="#Location">Locations</a>
                 <a href="">My List</a>
 
             </div>

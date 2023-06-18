@@ -12,7 +12,7 @@ const Main = () => {
         fontSize: '20px'
     }
     return (
-        <div className="Main">
+        <div className="Main" id='Home'>
             <div className="MainTextContainer">
                 <TypeAnimation
                     sequence={[

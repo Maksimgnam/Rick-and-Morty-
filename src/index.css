@@ -53,3 +53,14 @@ span {
   font-size: 32px;
 
 }
+
+.NoCardText {
+  font-size: 33px;
+  color: green;
+  position: relative;
+  top: 10px;
+}
+
+p {
+  color: green;
+}

@@ -44,10 +44,10 @@ const Location = () => {
         setDimension(slectedDimension)
     }
     return (
-        <div className="Location">
+        <div className="Location" id='Location'>
 
             <h3 className='TextH3'>Locations</h3>
-            <Location changeType={changeType} changeDimension={changeDimension} />
+            <LocationFilter changeType={changeType} changeDimension={changeDimension} />
 
 
             <input
@@ -57,27 +57,40 @@ const Location = () => {
                 onChange={event => setFilter(event.target.value)}
                 className='Input'
             />
-            <div className="Container">
+            {filteredLocations.length > 0 ? (
+                <div className="Container">
+
+
+                    {
+                        filteredLocations.map(locations => (
+                            <div className="LocationCard" key={locations.id}>
+                                <h3 className='Name'> {locations.name}</h3>
+                                <div className='CardTextCont'>
+                                    <p className='CardTextP'> type <span>{locations.type}: </span> </p>
+                                    <p className='CardTextP'> dimension <span>:  {locations.dimension}</span></p>
+
+
+                                </div>
+
+                            </div>
+                        ))
+                    }
+                </div>
+            ) : (
+                <p className='NoCardText'>No locations found...</p>
+            )}
+            <div className="Pagination">
+                <button onClick={PrevPage} disabled={page === 1} className='PagBtn'>Prev</button>
+                <div className='pageCount'>{`Page ${page}`}</div>
+                <button onClick={NextPage} disabled={page === 7} className="PagBtn">Next</button>
 
             </div>
-            {
-                filteredLocations.map(location => (
-                    <div className="LocationCard" key={location.id}>
-                        <h3 className='Name'> {location.name}</h3>
-                        <div className='CardTextCont'>
-                            <p className='CardTextP'> type <span>{location.type}: </span> </p>
-                            <p className='CardTextP'> dimension <span>:  {location.dimension}</span></p>
 
-
-                        </div>
-
-                    </div>
-                ))
-            }
 
 
 
         </div>
+
     )
 }
 export default Location;

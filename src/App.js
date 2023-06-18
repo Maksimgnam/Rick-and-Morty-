@@ -5,6 +5,7 @@ import Main from './Main/Main';
 import Characters from './Characters/Characters';
 import Episodes from './Episode/Episode';
 import Location from './Location/Location';
+import MyList from './MyList/MyList';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <Characters />
       <Episodes />
       <Location />
+      <MyList />
+
 
 
 

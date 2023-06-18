@@ -1,5 +1,5 @@
 
-
+import './LocationFilter.css'
 
 const LocationFilter = ({ changeType, changeDimension }) => {
     return (
