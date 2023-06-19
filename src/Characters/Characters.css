@@ -147,3 +147,19 @@
     font-size: 23px;
 
 }
+
+@media (max-width: 900px) {
+    .Popup {
+        width: 60%;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+    .Popup {
+        width: 70%;
+
+    }
+
+}

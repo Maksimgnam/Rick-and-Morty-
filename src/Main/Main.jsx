@@ -5,7 +5,7 @@ const Main = () => {
     const buttonStyle = {
         background: 'black',
         color: 'green',
-        height: '65px',
+        height: '60px',
         width: '300px',
         boxShadow: '0px 0 10px green',
         borderRadius: '10px',
@@ -14,21 +14,23 @@ const Main = () => {
     return (
         <div className="Main" id='Home'>
             <div className="MainTextContainer">
-                <TypeAnimation
-                    sequence={[
 
-                        'Hi everyone',
-                        1000,
-                        'ITs Rick and Morty',
-                        1500
-
-                    ]}
-                    wrapper="span"
-                    speed={10}
-                    style={{ fontSize: '100px', display: 'inline-block', fontFamily: 'Delicious Handrawn, cursive', color: 'green' }}
-                    repeat={Infinity}
-                />
                 <div className="MainDownCont">
+                    <TypeAnimation
+                        sequence={[
+
+                            'Hi everyone',
+                            1000,
+                            'ITs Rick and Morty',
+                            1500
+
+                        ]}
+                        wrapper="span"
+                        speed={10}
+
+                        repeat={Infinity}
+                        className='AnimatedText'
+                    />
 
 
                     <p className='MainP'>Rick and Morty is an American adult animated science-fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's nighttime programming block Adult Swim. It is distributed internationally by Warner Bros. Television Distribution. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures that take place across an infinite number of realities, often travelling to other planets and dimensions</p>
