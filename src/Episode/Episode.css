@@ -20,21 +20,25 @@
 
 .EpisodeCard {
     width: 60%;
-    height: auto;
+    height: 180px;
 
     box-shadow: 0 0 10px green;
     margin: 10px;
     margin-top: 50px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .EpisodeText {
     width: 100%;
-    height: 190px;
+    height: 100px;
     padding-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    top: 10px;
 }
 
 .EpisodeCardTextP {
@@ -49,4 +53,18 @@
 
 .EpisodeInput {
     margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+    .EpisodeName {
+        font-size: 27px;
+    }
+
+    .EpisodeCardTextP {
+        font-size: 23px;
+    }
+
+    .EpisodeSpan {
+        font-size: 25px;
+    }
 }
