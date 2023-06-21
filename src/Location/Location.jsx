@@ -25,7 +25,7 @@ const Location = () => {
             .catch(error => console.error(error));
     }, [page, type, dimension]);
 
-    const filteredLocations = locations.filter(location =>
+    const filteredLocations = locations && locations.filter(location =>
         location.name.toLowerCase().includes(filter.toLowerCase())
     )
 
@@ -57,14 +57,14 @@ const Location = () => {
                 onChange={event => setFilter(event.target.value)}
                 className='Input'
             />
-            {filteredLocations.length > 0 ? (
+            {filteredLocations && filteredLocations.length > 0 ? (
                 <div className="Container">
 
 
                     {
                         filteredLocations.map(locations => (
                             <div className="LocationCard" key={locations.id}>
-                                <h3 className='Name'> {locations.name}</h3>
+                                <h3 className='LocationName'> {locations.name}</h3>
                                 <div className='CardTextCont'>
                                     <p className='CardTextP'> type <span>{locations.type}: </span> </p>
                                     <p className='CardTextP'> dimension <span>:  {locations.dimension}</span></p>

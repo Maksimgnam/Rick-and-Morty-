@@ -63,9 +63,7 @@ const Characters = () => {
         setStatus(slectedStatus);
     };
 
-    const filteredCharacters = characters.filter(character =>
-        character.name.toLowerCase().includes(filter.toLowerCase())
-    );
+
     const OpenPopup = character => {
         setSelectedCharacter(character)
         setOpenPopup(true);
@@ -80,6 +78,9 @@ const Characters = () => {
         setOpenPagination(true)
 
     }
+    const filteredCharacters = characters && characters.filter((character) =>
+        character.name.toLowerCase().includes(filter.toLowerCase())
+    );
 
 
 
@@ -95,7 +96,7 @@ const Characters = () => {
                     <CharacterFilter
                         changeGender={changeGender}
                         changeSpecies={changeSpecies}
-                        changeStatus={changeStatus}
+                        changeStatus={changeStatus} z
                     />
                     <input
                         type="text"
@@ -111,7 +112,7 @@ const Characters = () => {
 
 
 
-            {filteredCharacters.length > 0 ? (
+            {filteredCharacters && filteredCharacters.length > 0 ? (
                 <div className="Container">
                     {openCard &&
                         filteredCharacters.map(character => (
