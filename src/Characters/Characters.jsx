@@ -143,7 +143,7 @@ const Characters = () => {
                         ))}
                 </div>
             ) : (
-                <p className="NoCardText">No locations found...</p>
+                <p className="NoCardText">No Characters found...</p>
             )}
             {
                 openPagination && (
