@@ -1,0 +1,33 @@
+.MenuBar {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: black;
+
+
+
+}
+
+.MenuBarHead {
+    width: 100%;
+    height: 5%;
+
+}
+
+.MenuLinksCont {
+    width: 300px;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.MenuLinks {
+    font-size: 50px;
+    margin: 20px;
+}
