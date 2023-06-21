@@ -46,7 +46,7 @@
     height: 220px;
 }
 
-.Name {
+.CharacterName {
     font-size: 32px;
     color: green;
     font-family: 'Delicious Handrawn', cursive;
@@ -63,9 +63,13 @@
     padding-left: 10px;
 }
 
-.CardTextP {
+.CardCharacterTextP {
     font-size: 23px;
     color: green;
+}
+
+.CharacterSpan {
+    font-size: 27px;
 }
 
 .CardButton {
@@ -154,7 +158,12 @@
 
     }
 
+
+
 }
+
+
+
 
 @media (max-width: 500px) {
     .Popup {

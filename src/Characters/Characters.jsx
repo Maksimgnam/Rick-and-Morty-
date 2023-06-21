@@ -118,16 +118,16 @@ const Characters = () => {
                             <div className="Card" key={character.id} data-aos="fade-up">
                                 <img src={character.image} alt="" className="avatar" />
                                 <div className="CardText">
-                                    <h4 className="Name">{character.name}</h4>
+                                    <h4 className="CharacterName">{character.name}</h4>
                                     <div className="CardTextCont">
-                                        <p className="CardTextP">
-                                            Gender <span>{character.gender}</span>
+                                        <p className="CardCharacterTextP">
+                                            Gender <span className='CharacterSpan'>{character.gender}</span>
                                         </p>
-                                        <p className="CardTextP">
-                                            Status <span>{character.status}</span>
+                                        <p className="CardCharacterTextP">
+                                            Status <span className='CharacterSpan'>{character.status}</span>
                                         </p>
-                                        <p className="CardTextP">
-                                            Species <span>{character.species}</span>
+                                        <p className="CardCharacterTextP">
+                                            Species <span className='CharacterSpan'> {character.species}</span>
 
 
                                         </p>
