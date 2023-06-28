@@ -21,27 +21,14 @@
 }
 
 
-.MylListInput {
-    width: 70%;
-    height: 50px;
-    border-radius: 10px;
+.MyListSelect {
+    width: 60%;
+    height: 45px;
+    font-size: 20px;
     position: relative;
     top: 30px;
-    background-color: black;
-    box-shadow: 0 0 10px green;
-    color: green;
-    font-size: 17px;
-    font-family: 'Delicious Handrawn', cursive;
-    font-weight: 600;
-    padding-left: 10px;
 }
 
-.MylListInput::placeholder {
-
-    font-family: 'Delicious Handrawn', cursive;
-    font-weight: 500;
-    color: green;
-}
 
 .add {
     position: relative;
@@ -105,7 +92,7 @@
 
 }
 
-.watchCard p {
+.watchName {
     color: green;
     font-size: 38px;
     font-family: 'Delicious Handrawn', cursive;
@@ -119,11 +106,28 @@
     background-color: green;
     color: black;
     border: none;
-    font-size: 20px;
+    font-size: 17px;
 
     border-radius: 10px;
     position: relative;
     left: -30px;
 
     font-weight: 700;
+}
+
+
+@media (max-width: 800px) {
+    .watchCard {
+        width: 100%;
+    }
+
+    .watchName {
+        font-size: 21px;
+    }
+
+    .delete {
+        width: 60px;
+        height: 35px;
+        font-size: 17px;
+    }
 }
