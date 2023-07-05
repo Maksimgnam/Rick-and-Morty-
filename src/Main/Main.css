@@ -120,3 +120,15 @@
 
 
 }
+
+
+@media (max-width: 400px) {
+    .AnimatedText {
+        font-size: 40px;
+    }
+
+    .MainP {
+        font-size: 16px;
+    }
+
+}
