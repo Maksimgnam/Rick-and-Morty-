@@ -1,6 +1,7 @@
 .LocatonFilter {
-    width: 300px;
+    width: 70%;
     height: 80px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
