@@ -1,5 +1,5 @@
 .Filter {
-    width: 80%;
+    width: 420px;
     height: 90px;
     background-color: black;
     display: flex;
@@ -22,4 +22,16 @@ select {
     color: green;
     border-radius: 5px;
 
+}
+
+@media (max-width: 400px) {
+    .Filter {
+        width: 80%;
+
+    }
+
+    select {
+        width: 80px;
+
+    }
 }

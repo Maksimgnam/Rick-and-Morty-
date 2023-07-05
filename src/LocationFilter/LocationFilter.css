@@ -1,8 +1,14 @@
 .LocatonFilter {
-    width: 70%;
+    width: 300px;
     height: 80px;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+@media (max-width: 400px) {
+    .LocationFilter {
+        width: 80%;
+
+    }
 }
