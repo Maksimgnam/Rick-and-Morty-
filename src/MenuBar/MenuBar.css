@@ -1,11 +1,14 @@
 .MenuBar {
     width: 100%;
-    height: 100vh;
+    height: 105vh;
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: fixed;
+    top: -5px;
 
     background-color: black;
+    z-index: 1001;
 
 
 
